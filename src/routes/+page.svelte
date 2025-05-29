@@ -19,63 +19,69 @@
 <LogoScroller label="" generating />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Hume AI builds empathic AI models and tools that understand and respond to human emotion. We help people and organizations create more human-centered products with emotional intelligence, always optimizing for well-being."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-		},
-		{
-			name: "Sarah Johnson",
+			name: "Marta Bouchard",
 			position: "Product Manager",
-			company: "Future Systems",
+			company: "ForesightQ",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"Rolling out Hume AI cut our onboarding from a full week to just one day. That meant we shipped updates a lot faster—saving precious dev time and budget before launch.",
 			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-female-product-manager-smiling-in-a-co.webp"
+		},
+		{
+			name: "Tariq Jensen",
+			position: "Senior Engineer",
+			company: "Waveform Robotics",
+			quote:
+				"We used the emotion API to spot edge-case frustration in user calls early. That let us patch a risky bug and avoid a costly rollback. Hume saved us real money and downtime.",
+			image:
+				"/generated/image-a-male-engineer-with-a-beard-working-in-.webp"
+		},
+		{
+			name: "Selene Dao",
+			position: "Research Scientist",
+			company: "Caledon University",
+			quote:
+				"Manual annotation for emotion analysis would have eaten half our grant. With Hume, we finished data labeling in weeks for a fraction of the cost—and with higher accuracy.",
+			image:
+				"/generated/image-a-female-scientist-in-a-bustling-univers.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Emotionally intelligent by design"
+	subtitle="AI technology that listens, understands, and responds with empathy."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Empathic voice interface",
+			description: "Engage users with real-time speech and natural emotional expression—no voice cloning needed."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Multimodal emotion measurement",
+			description: "Detect over two dozen emotions across audio, text, and facial cues for true contextual understanding."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "LLM-powered, deeply customizable",
+			description: "Change voice, style, and emotional tone with a prompt—bring your own LLM or use ours."
+		},
+		{
+			title: "Proprietary research and data",
+			description: "Built on science—over 1 million participants and 40+ peer-reviewed studies power every model."
+		},
+		{
+			title: "Robust API for developers",
+			description: "Low-latency, usage-based APIs make emotion AI easy to integrate and scale."
+		},
+		{
+			title: "Ethics at the core",
+			description: "Every model is guided by globally recognized values—beneficence, empathy, and scientific legitimacy."
 		}
 	]}
 />
