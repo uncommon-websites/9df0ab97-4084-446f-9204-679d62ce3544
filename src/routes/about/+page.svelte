@@ -10,34 +10,49 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "Beneficence",
+    description: "We aim to advance human well-being with every product and decision."
+  },
+  {
+    title: "Empathy",
+    description: "We build technology that listens, understands, and responds with genuine emotional intelligence."
+  },
+  {
+    title: "Scientific legitimacy",
+    description: "Our models are founded on rigorous, peer-reviewed research and real-world evidence."
+  },
+  {
+    title: "Emotional primacy",
+    description: "We place human feeling and experience at the center of every AI interaction."
+  },
+  {
+    title: "Inclusivity",
+    description: "We strive to serve, represent, and benefit people of every background and identity."
+  },
+  {
+    title: "Transparency",
+    description: "We communicate clearly, share our assumptions, and show how our technology works."
+  },
+  {
+    title: "Consent",
+    description: "We respect individual autonomy and secure explicit, meaningful consent in every use."
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="AI that understands how you feel"
+	subtitle="Grounded in science to build technology that supports human well-being"
+	imageSrc="/generated/image-a-candid-scene-in-a-modern-nyc-office-wh.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Hume AI was founded on a simple idea: AI should help us feel understood. For too long, technology has struggled to respond to what makes us most human—emotion. Conversations with machines often feel lifeless or frustrating, driven by rules instead of real understanding. We saw a deep gap in how AI communicates and knew there had to be a better way—one that centers emotional intelligence, empathy, and well-being from the start.",
+		"We began as a research lab focused on understanding how people express emotion in voice and behavior. That work quickly turned into technology—like EVI, the first voice interface that detects emotion and sounds like it truly cares, and Octave, which brings humanlike rhythm and emotional nuance to AI speech. Today, developers and leaders across health, education, robotics, and media are using our tools to bring natural, expressive interactions to the services people rely on every day.",
+		"Our mission is to make AI more human—not just in tone, but in purpose. We're guided by an ethical framework that puts people first: empathy, transparency, consent, and real scientific rigor. This isn’t just about better tech—it’s about creating systems built to support human well-being. We believe AI should make people feel heard, not managed. That’s the future we’re building toward—one conversation at a time."
 	]}
 />
 
@@ -48,55 +63,28 @@
 <StakeholderGrid
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Meet the people behind Hume AI."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+			name: "Moses Oh",
+			position: "Senior Research Engineer",
+			bio: "I get to solve problems no one imagined five years ago and experience technologies no one will be able to live without in five years.",
+			image: "/generated/image-a-professional-headshot-of-a-korean-amer.webp"
 		}
 	]}
 />
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+
+
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Build with emotional intelligence"
+  subtitle="Join Hume AI’s mission—or bring empathic AI to yours"
+  description="Help shape technology that supports human well-being. Explore our APIs or reach out to collaborate, research, or bring more empathy to your products."
+  imageSrc="/generated/image-a-diverse-group-of-cheerful-researchers-.webp"
+  callsToAction={[
+    { href: '/get-access', label: 'Request API access', variant: 'primary' },
+    { href: '/contact', label: 'Contact our team', variant: 'secondary' }
+  ]}
 />

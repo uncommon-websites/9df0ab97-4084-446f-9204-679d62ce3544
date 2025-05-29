@@ -15,35 +15,39 @@
 <Pricing />
 
 <Testimonials
-	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  testimonials={[
+    {
+      name: "Casey Liu",
+      position: "Head of AI",
+      company: "Studio XYZ",
+      quote: "We saw eval scores for user engagement leap by 39% after integrating Hume's Octave voices.",
+      image: "/generated/image-a-professional-headshot-of-an-east-asian.webp"
+    },
+    {
+      name: "Olivia Han",
+      position: "Cofounder",
+      company: "Ream Health",
+      quote: "EVI made our conversational agent feel alive—expressive, intuitive, and emotionally aware.",
+      image: "/generated/image-a-professional-headshot-of-a-white-woman.webp"
+    },
+    {
+      name: "Martín Lehner",
+      position: "Professor",
+      company: "ETH Zurich",
+      quote: "Hume’s API finally makes it possible to measure emotional state dynamically. Nothing else comes close.",
+      image: "/generated/image-a-professional-headshot-of-a-black-man-i.webp"
+    }
+  ]}
 />
 
-<CallToAction />
+<CallToAction
+  title="AI that understands you"
+  subtitle="Build experiences powered by emotional intelligence"
+  description="See the impact of empathic AI—voice interactions that actively listen, understand, and delight. Start building with models that put human well-being at the center."
+  imageSrc="/generated/image-a-cheerful-developer-sitting-at-a-sleek-.webp"
+  callsToAction={[
+    { href: '/api-access', label: 'Get API access', variant: 'primary' },
+    { href: '/demo', label: 'Try the demo app', variant: 'secondary' }
+  ]}
+/>
+

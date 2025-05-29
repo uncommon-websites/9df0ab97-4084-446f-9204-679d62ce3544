@@ -23,22 +23,25 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+  {
+    title: "Be a pioneer",
+    description:
+      "Shape the next wave of empathic AI—work at the intersection of research and application.",
+    icon: IconBriefcase
+  },
+  {
+    title: "Ownership and growth",
+    description:
+      "Take the lead on meaningful projects, publish research, and unlock new career chapters.",
+    icon: IconUsers
+  },
+  {
+    title: "Support & flexibility",
+    description:
+      "Equity, competitive pay, medical/dental/vision, unlimited PTO, hybrid NYC and Bay Area offices, and remote options.",
+    icon: IconHeart
+  }
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,78 +124,93 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Sasha Aurin",
+    position: "Software Engineer",
+    company: "API Team",
+    quote:
+      "I’ve never worked somewhere with this level of openness and collaboration, across research and engineering. Everyone has a voice, and it genuinely shapes how we build empathic AI.",
+    image: "/generated/image-a-professional-headshot-of-a-young-white.webp"
+  },
+  {
+    name: "Jordi Vega",
+    position: "Senior Product Manager",
+    company: "Voice Interfaces",
+    quote:
+      "Hume invests in your growth. I joined as a data analyst, but I’ve built product-wide impact areas and now mentor others. It’s a rare place where initiative turns into opportunity.",
+    image: "/generated/image-a-professional-headshot-of-a-middle-aged.webp"
+  },
+  {
+    name: "Minji El-Masri",
+    position: "Research Ops Lead",
+    company: "Research Operations",
+    quote:
+      "The work is challenging in the best way—but what makes it sustainable is the trust. I’ve always felt empowered to prioritize health, experiment freely, and ask for support. People genuinely want you to thrive.",
+    image: "/generated/image-a-professional-headshot-of-an-east-asian.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Apply online",
+    description:
+      "Send us your resume and a short note about what excites you about Hume AI."
+  },
+  {
+    step: 2,
+    title: "Screening call",
+    description:
+      "30-minute virtual chat to get to know you, your experience, and your ambitions."
+  },
+  {
+    step: 3,
+    title: "Role assessment",
+    description:
+      "Take-home project, technical or functional interview—tailored to your field."
+  },
+  {
+    step: 4,
+    title: "Meet the team",
+    description:
+      "Conversations with future teammates and leadership. Mutual fit is important!"
+  },
+  {
+    step: 5,
+    title: "Offer & onboarding",
+    description:
+      "Receive your offer and get support through a smooth onboarding into our unique culture."
+  }
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    icon: IconHeart,
+    title: "Impact is personal",
+    description:
+      "We center well-being and empathy in both our products and our culture."
+  },
+  {
+    icon: IconUsers,
+    title: "Science meets shipping",
+    description:
+      "We blend research rigor with a bias for building and iteration."
+  },
+  {
+    icon: IconGlobe,
+    title: "Kind, candid collaboration",
+    description:
+      "Ideas matter more than titles. We communicate openly, care for each other, and build together."
+  }
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+  title="Design AI for human well-being"
+  subtitle="Grow with a team that leads with empathy"
+  imageSrc="/generated/image-a-diverse-team-of-professionals-engaged-.webp"
 />
 
 <!-- Why Join Us Section -->

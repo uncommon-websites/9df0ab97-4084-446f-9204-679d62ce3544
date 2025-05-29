@@ -35,116 +35,151 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Pricing built for every stage",
+		subtitle = "From early experiments to enterprise-scale applications, choose the plan that supports your growth. All plans include access to Hume AI’s emotional intelligence APIs with pricing and support that scale with you.",
+		tierNames = ["Developer", "Business", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Monthly included usage",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
+					Developer: "1,000 credits",
+					Business: "50,000+ credits",
+					Enterprise: "Custom volume"
 				}
 			},
 			{
-				name: "Team members",
+				name: "API access (EVI 3, Octave, Expression, Custom Models)",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
+					Developer: true,
+					Business: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Additional usage (pay-as-you-go)",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Developer: true,
+					Business: "Discounted",
+					Enterprise: "Volume rates"
+				}
+			},
+			{
+				name: "Latency",
+				tiers: {
+					Developer: "Standard",
+					Business: "Standard + Instant mode",
+					Enterprise: "Custom"
+				}
+			},
+			{
+				name: "Voice customization",
+				tiers: {
+					Developer: "Basic prompts",
+					Business: "Advanced prosody control",
+					Enterprise: "Custom voice profiles"
+				}
+			},
+			{
+				name: "Analytics dashboard",
+				tiers: {
+					Developer: false,
+					Business: true,
+					Enterprise: "Custom reports"
+				}
+			},
+			{
+				name: "Flexible LLM integration",
+				tiers: {
+					Developer: "Built-in",
+					Business: "Built-in & external",
+					Enterprise: "Custom system"
+				}
+			},
+			{
+				name: "Phone deployment support",
+				tiers: {
+					Developer: false,
+					Business: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Support",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
+					Developer: "Community & email",
+					Business: "Priority email",
+					Enterprise: "Dedicated manager"
 				}
 			},
 			{
 				name: "SLA",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Developer: false,
+					Business: "Optional add-on",
+					Enterprise: "Guaranteed 99.9%"
+				}
+			},
+			{
+				name: "Security & compliance",
+				tiers: {
+					Developer: "Standard",
+					Business: "Standard",
+					Enterprise: "Enterprise-grade"
+				}
+			},
+			{
+				name: "Custom integrations",
+				tiers: {
+					Developer: false,
+					Business: false,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Onboarding & training",
+				tiers: {
+					Developer: "Docs/guides",
+					Business: "Email onboarding",
+					Enterprise: "Personalized/training"
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Developer",
+				monthlyPrice: 0,
+				yearlyPrice: 0,
+				description: "For developers and researchers starting out. Get 1,000 credits/month free and access all APIs. No credit card required.",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"1,000 credits/month included",
+					"API access to EVI 3, Octave, Expression Measurement, Custom Models",
+					"Standard latency",
+					"Basic voice customization via prompt",
+					"Community and email support",
+					"No SLA or analytics"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Start free",
+					href: "/signup?plan=developer"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Business",
+				monthlyPrice: 99,
+				yearlyPrice: 79, // Discounted with annual
+				description: "For startups, creators, and growing teams building for production. All APIs, faster modes, analytics, and priority support.",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"50,000+ credits/month included",
+					"Faster instant mode options",
+					"Advanced voice controls",
+					"Analytics dashboard",
+					"Flexible LLM integration",
+					"Phone deployment",
+					"Priority email support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "View pricing",
+					href: "/signup?plan=business"
 				},
 				highlight: true
 			},
@@ -152,15 +187,14 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "For organizations requiring custom terms, scale, and security. Custom usage, compliance, integrations, and white glove onboarding.",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Custom high-volume usage",
+					"Dedicated manager",
+					"Guaranteed SLA",
+					"Enterprise-grade compliance",
+					"Custom integrations & analytics",
+					"Personalized onboarding & training"
 				],
 				cta: {
 					label: "Contact sales",
