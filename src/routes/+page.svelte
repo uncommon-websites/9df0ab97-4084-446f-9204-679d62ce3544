@@ -7,19 +7,52 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Voice that understands how you feel"
+  subtitle="Build emotionally intelligent voice experiences that listen, respond with empathy, and prioritize human well-being."
+  customers={[
+    {
+      name: 'Maya Patel',
+      position: 'AI product manager at Innovax Systems',
+      imageSrc: '/generated/image-a-south-asian-woman-in-a-modern-office-s.webp'
+    },
+    {
+      name: 'Daniel Liu',
+      position: 'Professor of cognitive science at UC Berkeley',
+      imageSrc: '/generated/image-an-east-asian-man-in-a-university-office.webp'
+    },
+    {
+      name: 'Carla Jiménez',
+      position: 'CEO at Everfriends AI',
+      imageSrc: '/generated/image-a-latina-woman-in-a-tech-startup-office-.webp'
+    },
+    {
+      name: 'Jason Thompson',
+      position: 'Head of content at Aura Health',
+      imageSrc: '/generated/image-a-black-man-in-a-relaxed-creative-worksp.webp'
+    },
+    {
+      name: 'Amina Suleiman',
+      position: 'Lead developer at Sentra',
+      imageSrc: '/generated/image-a-black-woman-in-a-developer-workspace-d.webp'
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		"https://logo.clearbit.com/humana.com",
+		"https://logo.clearbit.com/lg.com",
+		"https://logo.clearbit.com/softbank.jp",
+		"https://logo.clearbit.com/woven.com"
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
@@ -58,7 +91,6 @@
 />
 
 <Features
-	generating
 	title="Features"
 	subtitle="Some features"
 	features={[
